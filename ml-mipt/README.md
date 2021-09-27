@@ -1,7 +1,7 @@
 ## Оглавление
 
 - [Reccurent Neural Networks and Language Models](#Reccurent-Neural-Networks-and-Language-Models)
-- [Прикладное машинное обучение 1. Intro to NLP. Word embeddings](#Intro-to-NLP.-Word-embeddings)
+- [Прикладное машинное обучение 1. Intro to NLP. Word embeddings](#Intro-to-NLP-Word-embeddings)
 
 
 - [ссылка на плейлист с лекциями(part_1)](https://www.youtube.com/playlist?list=PL4_hYwCyhAvZyW6qS58x4uElZgAkMVUvj)
@@ -39,8 +39,8 @@
 - GRU
 ![](for_readme/week0_10_RNN_and_Language_models/10.png)
 - GRU: формулы
-- ![](for_readme/week0_10_RNN_and_Language_models/11.png)
+![](for_readme/week0_10_RNN_and_Language_models/11.png)
 
 
-## Intro to NLP. Word embeddings
+## Intro to NLP Word embeddings
 
