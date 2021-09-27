@@ -39,7 +39,7 @@
 - GRU
 ![](for_readme/week0_10_RNN_and_Language_models/10.png)
 - GRU: формулы
-- ![](for_readme/week0_10_RNN_and_Language_models/11.png)
+![](for_readme/week0_10_RNN_and_Language_models/11.png)
 
 
 ## Intro to NLP. Word embeddings
