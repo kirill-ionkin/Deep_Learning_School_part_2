@@ -19,7 +19,7 @@
 
 
 - Рекурентный блок
-![](for_readme/week0_10_RNN_and_Language_models/1.png)
+![](./for_readme/week0_10_RNN_and_Language_models/1.png)
 - Структрура простой RNN
 ![](for_readme/week0_10_RNN_and_Language_models/2.png)
 - Пример работы RNN
