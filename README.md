@@ -14,6 +14,10 @@
  
 - [Введение_в_NLP.pdf](02_Введение_в_NLP_и_классификация_текста/Введение_в_NLP.pdf)
 - [[seminar]text_preprocessing_and_classification.ipynb](02_Введение_в_NLP_и_классификация_текста/[seminar]text_preprocessing_and_classification.ipynb)
+    - [nltk](https://www.nltk.org/)
+    - [Gensim](https://radimrehurek.com/gensim/)
+    - [Razdel](https://natasha.github.io/razdel/)
+    - [natasha](https://natasha.github.io/)
 
 
 - [Лекция. Введение в NLP.](https://www.youtube.com/watch?v=d0oV1MZ_KdE&ab_channel=DeepLearningSchool)
