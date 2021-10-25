@@ -2,6 +2,7 @@
 
 - [Reccurent Neural Networks and Language Models](#Reccurent-Neural-Networks-and-Language-Models)
 - [Прикладное машинное обучение 1. Intro to NLP. Word embeddings](#Intro-to-NLP-Word-embeddings)
+- [CNN-for-texts,-embeddings-for-different-languages](#CNN-for-texts,-embeddings-for-different-languages)
 
 
 - [ссылка на плейлист с лекциями(part_1)](https://www.youtube.com/playlist?list=PL4_hYwCyhAvZyW6qS58x4uElZgAkMVUvj)
@@ -70,5 +71,13 @@
 - Word2vec
 ![](for_readme/week1_01_word_embeddings/8.png)
 
+
+## CNN for texts, embeddings for different languages
+
+- [ml-mipt_f20_lect102_CNN_for_texts_and_more_embeddings.pdf](week1_02_CNN_for_texts_and_more_embeddings/ml-mipt_f20_lect102_CNN_for_texts_and_more_embeddings.pdf)
+- [practice02_CNN_for_texts.ipynb](week1_02_CNN_for_texts_and_more_embeddings/practice02_CNN_for_texts.ipynb)
+
+![](for_readme/week1_02_CNN_for_texts_and_more_embeddings/1.png)
+![](for_readme/week1_02_CNN_for_texts_and_more_embeddings/2.png)
 
 
