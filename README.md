@@ -12,7 +12,8 @@
   - [Homework: Embeddings](#Homework-Embeddings)
 - [Рекуррентные нейронные сети](#Рекуррентные-нейронные-сети)
   - [Homework: Text Classification](#Homework-Text-Classification)
-  
+- []()
+  - []()
 
 ## Организационная информация
 
@@ -30,7 +31,6 @@
 - [Лекция. Введение в NLP.](https://www.youtube.com/watch?v=d0oV1MZ_KdE&ab_channel=DeepLearningSchool)
 - [Семинар. Обработка текста.](https://www.youtube.com/watch?v=Aa-p8ddbxpQ)
 - [Семинар. Решение задачи классификации текста](https://www.youtube.com/watch?v=ltyWeIPrAVA)
-
 
 ### Homework Simple Embeddings
 ```
@@ -120,5 +120,7 @@
   - CNN for text classifications
     - [practice02_CNN_for_texts.ipynb(семинар от Родослава Нейчева)](ml-mipt/week1_02_CNN_for_texts_and_more_embeddings/practice02_CNN_for_texts.ipynb)
 
+
+## 
 
 
