@@ -7,11 +7,11 @@
 
 - [Организационная информация](#Организационная-информация)
 - [Введение в NLP и классификация текста](#Введение-в-NLP-и-классификация-текста)
-  - [Homework: Simple Embeddings]()
+  - [Homework: Simple Embeddings](#Homework-Simple-Embeddings)
 - [Embeddings](#Embeddings)
-  - [Homework: Embeddings]()
+  - [Homework: Embeddings](#Homework-Embeddings)
 - [Рекуррентные нейронные сети](#Рекуррентные-нейронные-сети)
-  - [Homework: Text Classification](#Homework:-Text-Classification)
+  - [Homework: Text Classification](#Homework-Text-Classification)
   
 
 ## Организационная информация
@@ -32,31 +32,22 @@
 - [Семинар. Решение задачи классификации текста](https://www.youtube.com/watch?v=ltyWeIPrAVA)
 
 
-- Предобработка текста
-![](for_readme/02_Введение_в_NLP_и_классификация_текста/1.png)
-- Выделение признаков
-![](for_readme/02_Введение_в_NLP_и_классификация_текста/2.png)
-![](for_readme/02_Введение_в_NLP_и_классификация_текста/3.png)
-![](for_readme/02_Введение_в_NLP_и_классификация_текста/4.png)
-![](for_readme/02_Введение_в_NLP_и_классификация_текста/4_1.png)
-![](for_readme/02_Введение_в_NLP_и_классификация_текста/5.png)
-- Коллокация, NGramms
-![](for_readme/02_Введение_в_NLP_и_классификация_текста/6.png)
-- Pointwise mutual information
-![](for_readme/02_Введение_в_NLP_и_классификация_текста/7.png)
-![](for_readme/02_Введение_в_NLP_и_классификация_текста/7_1.png)
-- Context embeddings
-![](for_readme/02_Введение_в_NLP_и_классификация_текста/8.png)
-![](for_readme/02_Введение_в_NLP_и_классификация_текста/8_1.png)
-- Уменьшение размерности данных
-![](for_readme/02_Введение_в_NLP_и_классификация_текста/9.png)
-- Co-Occurrence Count + dimensional reduction
-![](for_readme/02_Введение_в_NLP_и_классификация_текста/10_1.png)
-![](for_readme/02_Введение_в_NLP_и_классификация_текста/10.png)
-- PMI + dimensional reduction
-![](for_readme/02_Введение_в_NLP_и_классификация_текста/11.png)
-- TF-IDF + dimensional reduction
-![](for_readme/02_Введение_в_NLP_и_классификация_текста/12.png)
+### Homework Simple Embeddings
+```
+Ставится задача поиска похожих по смыслу  вопросов(вопросы StackOverflow), а именно задача ранжирования вопросов.
+1. Используются предобученные эмбеддинги слов
+  - from gensim.models.keyedvectors import KeyedVectors
+  - KeyedVectors.load_word2vec_format("SO_vectors_200.bin?download=1", binary=True)
+2. Представление эмбеддинга предожения через эмбеддинги слов
+3. Метрики ранжирования
+  - Hits@K
+  - DCG@K
+4. Ранжирование по косинусной похожести
+5. Обучение Word2Vec на корпусе похожих вопросов
+- from gensim.models import Word2Vec
+6. Применение различный токенизаторов, стеммингов, лемматизаторов, стоп-слов и т.д.
+```
+- [[homework]simple_embeddings.ipynb](03_hw_Simple_embeddings/[homework]simple_embeddings.ipynb)
 
 
 ## Embeddings
@@ -68,22 +59,27 @@
 - [Лекция. Embeddings.](https://www.youtube.com/watch?v=eXQAOTsbhLQ)
 - [Семинар. Word2Vec.](https://www.youtube.com/watch?v=iLzZO_4xyMg)
 
-
-- Word2Vec(идея скользящего окна для подсчёта pmi, Co-Occurrence Count, etc.)
-![](for_readme/04_Embeddings/1.png)
-- Cross-Entropy(мера расхождения между двумя распределениями)
-![](for_readme/04_Embeddings/2.png)
-- Target function, log-likelihood для Word2Vec
-![](for_readme/04_Embeddings/3.png)
-- Схема работы Word2Vec
-![](for_readme/04_Embeddings/4.png)
-- 2 схемы работы Word2Vec(Skip-Gram, CBOW)
-![](for_readme/04_Embeddings/5.png)
-![](for_readme/04_Embeddings/6.png)
-- Word2Vec + negative sampling ~ SVD
-![](for_readme/04_Embeddings/7.png)
-- Видоизменённая лосс-функция
-![](for_readme/04_Embeddings/8.png)
+### Homework Embeddings
+```
+Ставится задача семантической классификации твитов с помощью эмбеддингов(предобученных или обученных нами)
+  1. Использование word2veс(предобученного) для получения эмбеддингов
+    - word2vec = api.load("word2vec-google-news-300")
+  2. Препроцессинг данных + различные способы получения эмбеддингов предложения по эмбеддингам слов
+    - import gensim
+    - import gensim.donloader as api
+    - import nltk
+  3. Нормализация эмбеддингов перед подачей их в нейронную сеть.
+  4. Создание кастомного Datset для обучения модели
+  5. Визуализация векторов предложений с помощью PCA
+  6. Embedding for unknown words
+    - Представление эмбеддинга незнакомого слова через его "ближний" контекст
+    - Представление эмбеддинга незнакомого слова чреез обученный tfidf
+      - from sklearn.feature_extraction.text import TfidfVectorizer
+        - !pip install sparsesvd
+        - from sparsesvd import sparsesvd
+        - Библиотека для SVD разложения sparse matrix
+```
+- [[homework]embeddings.ipynb](05_hw_Embeddings/[homework]embeddings.ipynb)
 
 
 ## Рекуррентные нейронные сети
@@ -96,7 +92,22 @@
 - [Лекция. Embeddings.](https://www.youtube.com/watch?v=eXQAOTsbhLQ&ab_channel=DeepLearningSchool)
 - [Семинар. Рекуррентные нейронные сети](https://www.youtube.com/watch?v=_wpAkWZmlyg&t=1474s&ab_channel=DeepLearningSchool)
 
-### Homework: Text Classification
+### Homework Text Classification
+```
+Ставится задача бинарной классификации текстов на "neg"(негативные) и "pos"(позитивные),
+а такде предлагается понять, насколько хорошо модель "понимает" смысл слов и какие слова
+влиют на результат  ответа модели.
+  1. Использование torchtext:
+    - datasets
+    - Field, LabelField, BucketIterator
+    - Vectors, GloVe
+  2. Использование LSTM для задачи классификации
+  3. Использование CNN для задачи классификации
+  4. Библиотека для интерпретации того, насколько модель хорошо  понимает смысл слов 
+    - !pip install -q captum
+    - LayerIntegratedGradients, TokenReferenceBase, visualization
+  5. Использование предобученных эмбеддингов для инициализации словаря модели 
+```
 - [_[homework]classification.ipynb](07_hw_Text_Classification/_[homework]classification.ipynb)
 - Вспомогательные источники:
   - Understanding BucketIterator, Field, LabelField, Glove
@@ -109,15 +120,5 @@
   - CNN for text classifications
     - [practice02_CNN_for_texts.ipynb(семинар от Родослава Нейчева)](ml-mipt/week1_02_CNN_for_texts_and_more_embeddings/practice02_CNN_for_texts.ipynb)
 
-![](for_readme/06_Рекуррентные_нейронные_сети/1.png)
-![](for_readme/06_Рекуррентные_нейронные_сети/1_1.png)
-![](for_readme/06_Рекуррентные_нейронные_сети/2.png)
-![](for_readme/06_Рекуррентные_нейронные_сети/3.png)
-![](for_readme/06_Рекуррентные_нейронные_сети/4.png)
-- Более сложные структуры для рекуррентных нейронных сетей
-![](for_readme/06_Рекуррентные_нейронные_сети/5.png)
-![](for_readme/06_Рекуррентные_нейронные_сети/6.png)
-![](for_readme/06_Рекуррентные_нейронные_сети/7.png)
-![](for_readme/06_Рекуррентные_нейронные_сети/8.png)
 
 
