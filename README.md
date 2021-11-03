@@ -12,7 +12,7 @@
   - [Homework: Embeddings](#Homework-Embeddings)
 - [Рекуррентные нейронные сети](#Рекуррентные-нейронные-сети)
   - [Homework: Text Classification](#Homework-Text-Classification)
-- []()
+- [Language modelling](#Language-modelling)
   - []()
 
 ## Организационная информация
@@ -121,6 +121,27 @@
     - [practice02_CNN_for_texts.ipynb(семинар от Родослава Нейчева)](ml-mipt/week1_02_CNN_for_texts_and_more_embeddings/practice02_CNN_for_texts.ipynb)
 
 
-## 
+## Language modelling
+
+- [Языковые_модели.pdf](08_Language_Modelling/Языковые_модели.pdf)
+- [Language_modeling_seminar.ipynb](08_Language_Modelling/Language_modeling_seminar.ipynb)
 
 
+- [Лекция. Языковые модели. Введение. Частотный подход](https://www.youtube.com/watch?v=aS2A7b-4uT4&list=PL0Ks75aof3Ti1GDgeePUkCJWn02c0VDA5&index=10)
+- [Лекция. Языковые модели. Нейронные сети](https://www.youtube.com/watch?v=-tK7WcE5Wfo&list=PL0Ks75aof3Ti1GDgeePUkCJWn02c0VDA5&index=9)
+- [Семинар. Языковые модели](https://www.youtube.com/watch?v=WoYRZEsWIrg&list=PL0Ks75aof3Ti1GDgeePUkCJWn02c0VDA5&index=8&ab_channel=DeepLearningSchool)
+
+### Homework Part of Speech Tagger
+
+
+## Neural Machine Translation
+
+- [Seq2Seq_Attention.pdf](10_Neural_Machine_Translation/Seq2Seq_Attention.pdf)
+- [[seminar_class]NeuralMachineTranslation.ipynb](10_Neural_Machine_Translation/[seminar_class]NeuralMachineTranslation.ipynb)
+
+
+- [Лекция. Seq2Seq, машинный перевод.](https://www.youtube.com/watch?v=N3TLYsn0TU8&ab_channel=DeepLearningSchool)
+- [Лекция. Внимание (Attention)](https://www.youtube.com/watch?v=G4vT5cvJSxY&ab_channel=DeepLearningSchool)
+- [Семинар. Seq2Seq](https://www.youtube.com/watch?v=d8A1nxoZDDk&ab_channel=DeepLearningSchool)
+
+### 

@@ -6,7 +6,7 @@
 
 - [Лекция. Языковые модели. Введение. Частотный подход](https://www.youtube.com/watch?v=aS2A7b-4uT4&list=PL0Ks75aof3Ti1GDgeePUkCJWn02c0VDA5&index=10)
 - [Лекция. Языковые модели. Нейронные сети](https://www.youtube.com/watch?v=-tK7WcE5Wfo&list=PL0Ks75aof3Ti1GDgeePUkCJWn02c0VDA5&index=9)
-- [Семинар. Рекуррентные нейронные сети](https://www.youtube.com/watch?v=_wpAkWZmlyg&t=1474s&ab_channel=DeepLearningSchool)
+- [Семинар. Языковые модели](https://www.youtube.com/watch?v=WoYRZEsWIrg&list=PL0Ks75aof3Ti1GDgeePUkCJWn02c0VDA5&index=8&ab_channel=DeepLearningSchool)
 
 
 - Что делает языковая модель(LM)?
