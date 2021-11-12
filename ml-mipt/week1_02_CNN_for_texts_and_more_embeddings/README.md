@@ -5,3 +5,12 @@ Further readings:
 1. CS231n page about CNNs: https://cs231n.github.io/convolutional-networks/
 2. Blog post about text classification with RNNs and CNNs blogpost: https://medium.com/jatana/report-on-text-classification-using-cnn-rnn-han-f0e887214d5f
 3. Convolutional Neural Networks for Sentence Classification: https://arxiv.org/abs/1408.5882
+
+
+## CNN for texts, embeddings for different languages
+
+- [ml-mipt_f20_lect102_CNN_for_texts_and_more_embeddings.pdf](ml-mipt_f20_lect102_CNN_for_texts_and_more_embeddings.pdf)
+- [practice02_CNN_for_texts.ipynb](practice02_CNN_for_texts.ipynb)
+
+![](../for_readme/week1_02_CNN_for_texts_and_more_embeddings/1.png)
+![](../for_readme/week1_02_CNN_for_texts_and_more_embeddings/2.png)
