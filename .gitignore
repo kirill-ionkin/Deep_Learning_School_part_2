@@ -2,3 +2,4 @@
 .ipynb_checkpoints
 03_hw_Simple_embeddings/stackoverflow_similar_questions.zip
 05_hw_Embeddings/archive.zip
+11_hw_Seq2Seq_with_Attention/seq2seq_with_attention.pt

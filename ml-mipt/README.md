@@ -37,3 +37,8 @@
 - [ml-mipt_f20_lect103_Machine_Tranlation.pdf](week1_03_Machine_Translation_and_Attention/ml-mipt_f20_lect103_Machine_Tranlation.pdf)
 - [practice_seq2seq_NMT.ipynb](week1_03_Machine_Translation_and_Attention/practice_seq2seq_NMT.ipynb)
 - [extra_practice_Attention_basics_and_tensorboard.ipynb](week1_03_Machine_Translation_and_Attention/extra_practice_Attention_basics_and_tensorboard.ipynb)
+
+
+- Вспомогательные источники:
+  - open-source [implementation of seq2seq](https://github.com/bentrevett/pytorch-seq2seq/blob/master/1%20-%20Sequence%20to%20Sequence%20Learning%20with%20Neural%20Networks.ipynb) NMT in PyTorch.
+  - [original paper:](https://arxiv.org/abs/1409.3215) Sequence to Sequence Learning with Neural Networks

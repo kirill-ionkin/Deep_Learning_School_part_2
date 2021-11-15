@@ -14,6 +14,9 @@
   - [Homework: Text Classification](#Homework-Text-Classification)
 - [Language modelling](#Language-modelling)
   - []()
+- [Neural Machine Translation](#Neural-Machine-Translation)
+  - [Homework: Seq2Seq with Attention](#Homework-Seq2Seq-with-Attention)
+
 
 ## Организационная информация
 
@@ -144,4 +147,42 @@
 - [Лекция. Внимание (Attention)](https://www.youtube.com/watch?v=G4vT5cvJSxY&ab_channel=DeepLearningSchool)
 - [Семинар. Seq2Seq](https://www.youtube.com/watch?v=d8A1nxoZDDk&ab_channel=DeepLearningSchool)
 
-### 
+### Homework Seq2Seq with Attention
+```
+Ставится задача машинного перевола, для чего необходимо
+реализовать архитектуру Seq2Seq с механизмом Attention для декодера.
+  1. Использование torchtext для препроцессинга данных.
+    - Field(tokenizer= ...,
+            init_token="<sos>",
+            eos_token="<eos>",
+            lower=True
+            )
+    - TabularDataset
+    - BucketIterator
+  2. Encoder
+    - LSTM
+    - n_layers = 1
+    - bidirectional = True
+    - Преобразование hidden, cell на выходе из encoder, т.к.
+      вследствие bidirectional размерность увеличивается  
+  3. Temperature Softmax
+    - Температурный Softmax, благодаря которому можно с помощью
+      температуры сильнее выделять вероятность классов или
+      наоборот делать распределение равномерным
+  4. Attention(concat attention)
+  5. Decoder with attention
+    - GRU
+    - n_layers = 1
+    - bidirectional = False
+  6. Seq2Seq
+  7. Init params to Encoder, Decoder, Attention, Seq2Seq
+  8. Other
+    - Train loop
+    - Val loop
+    - Plot 
+    - translation
+    - Metric:  BLEU
+```
+- [[homework]NeuralMachineTranslation.ipynb](11_hw_Seq2Seq_with_Attention/[homework]NeuralMachineTranslation.ipynb)
+- Вспомогательные источники:
+  - [Sequence to Sequence (seq2seq) and Attention](https://lena-voita.github.io/nlp_course/seq2seq_and_attention.html)
