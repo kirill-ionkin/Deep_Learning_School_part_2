@@ -13,9 +13,12 @@
 - [Рекуррентные нейронные сети](#Рекуррентные-нейронные-сети)
   - [Homework: Text Classification](#Homework-Text-Classification)
 - [Language modelling](#Language-modelling)
-  - []()
+  - [Homework: Part of Speech Tagger](#Homework-Part-of-Speech-Tagger)
 - [Neural Machine Translation](#Neural-Machine-Translation)
   - [Homework: Seq2Seq with Attention](#Homework-Seq2Seq-with-Attention)
+- [Transformers](#Transformers)
+- [ELMO, GPT, BERT](#ELMO-GPT-BERT)
+  - []()
 
 
 ## Организационная информация
@@ -186,3 +189,36 @@
 - [[homework]NeuralMachineTranslation.ipynb](11_hw_Seq2Seq_with_Attention/[homework]NeuralMachineTranslation.ipynb)
 - Вспомогательные источники:
   - [Sequence to Sequence (seq2seq) and Attention](https://lena-voita.github.io/nlp_course/seq2seq_and_attention.html)
+  - [Attention Seq2Seq with PyTorch: learning to invert a sequence](https://towardsdatascience.com/attention-seq2seq-with-pytorch-learning-to-invert-a-sequence-34faf4133e53)
+  - [Pytorch Seq2Seq Tutorial for Machine Translation](https://www.youtube.com/watch?v=EoGUlvhRYpk&list=PLhhyoLH6Ijfyl_VMCsi54UqGQafGkNOQH&index=1)
+  - [Pytorch Seq2Seq with Attention for Machine Translation](https://www.youtube.com/watch?v=sQUqQddQtB4&list=PLhhyoLH6Ijfyl_VMCsi54UqGQafGkNOQH&index=2)
+
+
+## Transformers
+
+- [Transformers.pdf](12_Transformers/Transformers.pdf)
+- [Attention_is_All_You_Need.ipynb](12_Transformers/Attention_is_All_You_Need.ipynb)
+
+
+- [Лекция. Трансформеры. Self-Attention](https://www.youtube.com/watch?v=f544TipD2QY)
+- [Лекция. Трансформеры. Positional Encoding, Decoder side, Training](https://www.youtube.com/watch?v=WL6UviEG3XA)
+- [Семинар. Трансформеры](https://www.youtube.com/watch?v=KdMS5XWQAic)
+
+
+- Вспомогательные исчточники:
+    - [Attention is All You Need(slightly modified version implementation)](https://github.com/bentrevett/pytorch-seq2seq/blob/master/6%20-%20Attention%20is%20All%20You%20Need.ipynb)
+      - [Transformers: Attention in Disguise](https://www.mihaileric.com/posts/transformers-attention-in-disguise/)
+      - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) - [Перевод(статья на Habr)](https://habr.com/ru/post/486358/)
+      - [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+    - [Pytorch Transformers from Scratch (Attention is all you need)](https://www.youtube.com/watch?v=U0s0f995w14&list=PLhhyoLH6Ijfyl_VMCsi54UqGQafGkNOQH&index=3)
+
+
+## ELMO GPT BERT
+
+- [Transformers+.pptx](13_ELMO_GPT_BERT/Transformers+.pptx)
+- [GPT.ipynb](13_ELMO_GPT_BERT/GPT.ipynb)
+
+- []()
+- []()
+
+### Homework
